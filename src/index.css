@@ -1,0 +1,37 @@
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background-color: cadetblue;
+}
+h2 {
+    text-align: center;
+}
+form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-top: 20px;
+    width: 20%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid rgb(92, 174, 167);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(225, 233, 232, 0.33);
+}
+
+input:focus{
+    outline: none;
+}
+
+.imageList {
+    columns: 250px 5;
+    column-gap: 10px;
+    margin-top: 20px;
+}
+
+.imageItem {
+    width: 100%;
+}
